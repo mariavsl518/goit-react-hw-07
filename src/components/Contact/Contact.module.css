@@ -1,0 +1,16 @@
+.contact{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.deleteBtn{
+    padding: 5px;
+    color: grey;
+    height: 30px;
+    background-color: transparent;
+}
+
+.deleteBtn:hover{
+    border: 1px solid rgb(45, 26, 255);
+}

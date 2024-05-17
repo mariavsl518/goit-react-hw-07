@@ -1,0 +1,25 @@
+.contactForm{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.contactInput{
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(45, 26, 255);
+    display: block;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.contactBtn{
+    border: 1px solid rgb(45, 26, 255);
+    color: grey;
+}
+
+.contactBtn:hover{
+    border: 1px solid none;
+    background-color: rgb(45, 26, 255);
+    color: white;
+
+}
