@@ -1,6 +1,5 @@
 import React from 'react'
 import { useSelector, useDispatch } from "react-redux";
-import { add } from '../../redux/contactsSlice';
 import css from './ContactsForm.module.css'
 import { addContact } from '../../redux/contactsOps';
 
