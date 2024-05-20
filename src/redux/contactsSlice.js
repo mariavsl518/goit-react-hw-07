@@ -9,17 +9,6 @@ export const contactsSlice = createSlice({
         loading: false,
         error: null,
     },
-    reducers: {
-        add: {
-            reducer: (state, action) => {
-                state.items = [...state.items, action.payload]
-            },
-        },
-
-        remove: (state, action) => {
-            state.items = state.items.filter(item => item.id !== action.payload)
-        },
-    },
 
     extraReducers: (builder) => 
         builder 
